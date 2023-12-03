@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter # 31,32</title>
+  </head>
+  <body>
+    <script>
+
+              //Questjion # 1
+      // document.write(`Question # 1`+ `<br>`)
+      // var firstName =prompt('Enter Your first Name')
+      // var lastName =prompt('Enter Your last Name')
+      // first = firstName.toLocaleUpperCase()
+      // last = lastName.toLocaleUpperCase()
+      // var merge = first + '  ' +last
+      // document.write(`Assalam u Alaikum  `, merge ,' <br> ',`Have A Nice Day`)
+
+             //  Question # 2
+      var mob =['techno','infinix','iphone','samsung']
+      var mobile =prompt('Your fav mob name   Techno ; Infinix ; i phone','samsung')
+      var match='no'
+      for(var i =0;i<mob.length;i++){
+            if (mobile==mob[i]) {
+                var match='yes'
+                break
+              }
+            }
+            if (match=='yes') {
+              document.write('My Favourite Mobile is:'+'  '+mobile );
+              document.write("<br>String:"+'  '+mobile +'<br>'+'Index of '+'('+mobile+')'+' is:'+mobile.indexOf())
+            }
+            else{
+                document.write('undefind hogya');
+            }
+
+            
+      //            Question # 3
+// document.write("<h3>Question # 3</h3>",'<br>')
+//           var names=prompt('enter your name for count Alphabates')
+//           contry=names.length
+//                 document.write("String:"+'  '+names +'<br>'+'Index of (n) is:'+contry)
+    </script>
+  </body>
+</html>
