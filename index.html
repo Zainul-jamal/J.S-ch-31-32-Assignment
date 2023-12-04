@@ -47,7 +47,49 @@ document.write('<br>')
 document.write("<h3>Question # 3</h3>",'<br>')
           var names=prompt('enter your name for count Alphabates')
           contry=names.length
-                document.write("String:"+'  '+names +'<br>'+'Index of (n) is:'+contry)
-    </script>
+                document.write("String:"+'  '+names +'<br>'+'Index of ('+names+') is:'+contry)
+
+
+                // Question # 7
+                document.write("<h3>Question # 7</h3> ",'<br>')
+                var city = prompt('Enter city Name')
+                var changCity=prompt('You Can change'+' '+'('+city+')'+' '+'to Other City Name')
+                replace=city.replace(city,changCity)
+                document.write('You Change'+' '+city+' '+'TO'+'('+replace+')');
+                 
+
+                // Question #  11
+                document.write("<h3>Question # 11</h3> ",'<br>')
+               var upperCase=prompt('Enter name to upper Case')
+               var upper=upperCase.toUpperCase()
+               document.write('After Upper Case Your name is ==>',upper)
+
+
+
+                 //  Question # 12
+                document.write('<h3>Question # 12</h3> ')
+                var zz = prompt('Enter name & number with dots')
+                rep=zz.replaceAll('.','')
+                document.write('After removing dots Your name is ==>',rep)
+
+                document.write("<h3>Question # 13</h3> ",)
+                var user_name=prompt("Enter user Name without sign ! @ # , .")
+            var a = false
+      
+            var special=["!","@",",","."]
+            for(var i=0;i<special.length;i++){
+                if(user_name.includes(special[i])){
+
+                   document.write("enter a valid username please enter without sign ! @ , .")
+                  var a = true
+    
+                }
+                
+            }                
+                if (a== false) {
+                    document.write('with  out sign  your name is ==>', user_name)
+                }
+              
+    </script> 
   </body>
 </html>
